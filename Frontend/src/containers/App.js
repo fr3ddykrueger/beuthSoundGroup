@@ -1,5 +1,6 @@
 import Canvas from '../components/threeJS/canvas'
 import Menu from '../components/menu'
+import Keyboard from '../components/toneJS/littleKeyboard'
 import React from 'react';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       </header>
       <Menu/>
       <Canvas/>
+      <Keyboard/>
     </div>
   );
 }
